@@ -11,3 +11,4 @@
   <%# end %>
 
 <%= link_to 'Back to the list', users_path %>
+<%= link_to 'Delete your account', @user, method: :delete, data: {confirm: 'are you sure you want to delete your account?'} %>
