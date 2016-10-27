@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'sessions/new'
-
   root 'users#index'
   get 'users/' => 'users#index'
   post 'users/' => 'users#create'
